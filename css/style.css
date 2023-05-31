@@ -246,3 +246,49 @@ top: -439px;
   z-index: 1000;
   animation: slice1_fingers 10s infinite;
 }
+
+.blamo {
+  position: relative;
+  background-size: contain;
+  background-image: url("../images/blamo.png");
+  width: calc(416px);
+  height: calc(242px);
+  left: 245px;
+  top: -1075px;
+  animation: blamo 3s infinite;
+}
+
+@keyframes blamo {
+  0%, 20%, 50%, 100% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.8;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.8;
+  }
+}
+
+.peppers {
+  position: relative;
+  background-size: cover;
+  background-image: url(../images/peppers.png);
+  width: calc(48px);
+  height: calc(116px);
+  left: 852px;
+  top: -1093px;
+  animation: pepperz 3s infinite;
+}
+
+@keyframes pepperz {
+  0%, 100% {
+    height: calc(116px);
+  }
+  50% {
+    height: calc(0px);
+  }
+}
