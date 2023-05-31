@@ -172,3 +172,68 @@ top: -439px;
     left: 763px;
   animation: bounce10 2s infinite;
 }
+
+.box_front {
+  position: relative;
+  background-size: contain;
+  background-image: url("../images/box-front.png");
+  width: 219px;
+  height: 291px;
+  top: -509px;
+  left: 128px;
+  z-index: 100;
+}
+
+@keyframes slice1 {
+  0%, 20%, 50%, 100% { transform: translateY(100px); }
+  40% { transform: translateY(20px); }
+  60% { transform: translateY(0px); }
+  80% { transform: translateY(20px); }
+}
+
+.slice_1 {
+  position: relative;
+  background-size: contain;
+  background-image: url("../images/slices/slice_1.png");
+  width: calc(500px / var(--main-scale));
+  height: calc(622px / var(--main-scale));
+  top: -436px;
+  left: 137px;
+  animation: slice1 10s infinite;
+}
+
+@keyframes slice1_fingers {
+  0%, 20%, 50%, 100% {
+    top: -467px;
+    left: 160px;
+    transform: rotate(346deg) scaleY(0);
+  }
+  40% {
+    top: -460px;
+    left: 165px;
+    transform: rotate(346deg) scaleY(0.8);
+  }
+  60% {
+    top: -460px;
+    left: 165px;
+    transform: rotate(346deg) scaleY(1);
+  }
+  80% {
+    top: -460px;
+    left: 165px;
+    transform: rotate(346deg) scaleY(0.8);
+  }
+}
+
+.slice_1_fingers {
+  position: relative;
+  background-size: contain;
+  background-image: url("../images/slices/slice_1_fingers.png");
+  width: calc(80px);
+  height: calc(21px);
+  top: -460px;
+  left: 165px;
+  transform: rotate(346deg);
+  z-index: 1000;
+  animation: slice1_fingers 10s infinite;
+}
