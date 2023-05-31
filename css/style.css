@@ -1,0 +1,174 @@
+
+:root {
+  --main-scale: 4.5;
+}
+
+div#main {
+  margin: 0 auto;
+  background-image: url("/images/background.png");
+  width: 1125px;
+  height: 995px;
+}
+
+div > img {
+  transform: scale(0.5);
+}
+
+html, body {
+  background-color: #454545;
+}
+
+@keyframes bounce1 {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-20px); }
+  60% { transform: translateY(-10px); }
+}
+
+@keyframes bounce2 {
+  0%, 15%, 45%, 75%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-20px); }
+  60% { transform: translateY(-10px); }
+}
+
+@keyframes bounce3 {
+  0%, 10%, 40%, 70%, 100% { transform: translateY(0); }
+  20% { transform: translateY(-20px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes bounce4 {
+  0%, 5%, 35%, 65%, 100% { transform: translateY(0); }
+  10% { transform: translateY(-20px); }
+  40% { transform: translateY(-10px); }
+}
+
+@keyframes bounce5 {
+  0%, 25%, 55%, 85%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-20px); }
+  70% { transform: translateY(-10px); }
+}
+
+@keyframes bounce6 {
+  0%, 20%, 60%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-20px); }
+  70% { transform: translateY(-10px); }
+}
+
+@keyframes bounce7 {
+  0%, 15%, 45%, 85%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-20px); }
+  60% { transform: translateY(-10px); }
+}
+
+@keyframes bounce8 {
+  0%, 10%, 30%, 50%, 100% { transform: translateY(0); }
+  20% { transform: translateY(-20px); }
+  40% { transform: translateY(-10px); }
+}
+
+@keyframes bounce9 {
+  0%, 20%, 40%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-20px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes bounce10 {
+  0%, 10%, 20%, 30%, 100% { transform: translateY(0); }
+  15% { transform: translateY(-20px); }
+  25% { transform: translateY(-10px); }
+}
+.letter {
+  position: relative;
+  background-size: contain;
+}
+
+.the_letter_p {
+  background-image: url("/images/letters/Slice 1.png");
+  width: calc(238px / var(--main-scale));
+  height: calc(401px / var(--main-scale));
+  top: 106px;
+  left: 214px;
+  animation: bounce1 2s infinite;
+}
+
+.the_letter_i {
+  background-image: url("/images/letters/Slice 2.png");
+  width: calc(86px / var(--main-scale));
+  height: calc(399px / var(--main-scale));
+  top: 18px;
+  left: 274px;
+  animation: bounce2 2s infinite;
+}
+
+
+.the_letter_z {
+  background-image: url("/images/letters/Slice 3.png");
+  width: calc(250px / var(--main-scale));
+  height: calc(405px / var(--main-scale));
+  top: -72px;
+  left: 303px;
+  animation: bounce3 2s infinite;
+}
+
+.the_letter_z2 {
+  background-image: url("/images/letters/Slice 4.png");
+  width: calc(270px / var(--main-scale));
+  height: calc(405px / var(--main-scale));
+  top: -162px;
+  left: 368px;
+  animation: bounce4 2s infinite;
+}
+
+.the_letter_a {
+  background-image: url("/images/letters/Slice 5.png");
+  width: calc(207px / var(--main-scale));
+  height: calc(414px / var(--main-scale));
+  top: -253px;
+  left: 432px;
+  animation: bounce5 2s infinite;
+}
+
+.the_letter_p2 {
+  background-image: url("/images/letters/Slice 6.png");
+  width: calc(254px / var(--main-scale));
+  height: calc(437px / var(--main-scale));
+  top: -344px;
+  left: 538px;
+  animation: bounce6 2s infinite;
+}
+
+.the_letter_a2 {
+  background-image: url("/images/letters/Slice 7.png");
+  width: calc(240px / var(--main-scale));
+  height: calc(439px / var(--main-scale));
+top: -439px;
+    left: 584px;
+  animation: bounce7 2s infinite;
+}
+
+.the_letter_r {
+  background-image: url("/images/letters/Slice 8.png");
+  width: calc(271px / var(--main-scale));
+  height: calc(424px / var(--main-scale));
+  top: -534px;
+  left: 634px;
+  animation: bounce8 2s infinite;
+}
+
+.the_letter_t {
+  background-image: url("/images/letters/Slice 9.png");
+  width: calc(309px / var(--main-scale));
+  height: calc(424px / var(--main-scale));
+  top: -623px;
+  left: 689px;
+  animation: bounce9 2s infinite;
+}
+
+.the_letter_y {
+  background-image: url("/images/letters/Slice 10.png");
+  width: calc(324px / var(--main-scale));
+  height: calc(424px / var(--main-scale));
+    top: -716px;
+    left: 763px;
+  animation: bounce10 2s infinite;
+}
