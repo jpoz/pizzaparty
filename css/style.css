@@ -5,7 +5,7 @@
 
 div#main {
   margin: 0 auto;
-  background-image: url("/images/background.png");
+  background-image: url("../images/background.png");
   width: 1125px;
   height: 995px;
 }
@@ -83,7 +83,7 @@ html, body {
 }
 
 .the_letter_p {
-  background-image: url("/images/letters/Slice 1.png");
+  background-image: url("../images/letters/Slice 1.png");
   width: calc(238px / var(--main-scale));
   height: calc(401px / var(--main-scale));
   top: 106px;
@@ -92,7 +92,7 @@ html, body {
 }
 
 .the_letter_i {
-  background-image: url("/images/letters/Slice 2.png");
+  background-image: url("../images/letters/Slice 2.png");
   width: calc(86px / var(--main-scale));
   height: calc(399px / var(--main-scale));
   top: 18px;
@@ -102,7 +102,7 @@ html, body {
 
 
 .the_letter_z {
-  background-image: url("/images/letters/Slice 3.png");
+  background-image: url("../images/letters/Slice 3.png");
   width: calc(250px / var(--main-scale));
   height: calc(405px / var(--main-scale));
   top: -72px;
@@ -111,7 +111,7 @@ html, body {
 }
 
 .the_letter_z2 {
-  background-image: url("/images/letters/Slice 4.png");
+  background-image: url("../images/letters/Slice 4.png");
   width: calc(270px / var(--main-scale));
   height: calc(405px / var(--main-scale));
   top: -162px;
@@ -120,7 +120,7 @@ html, body {
 }
 
 .the_letter_a {
-  background-image: url("/images/letters/Slice 5.png");
+  background-image: url("../images/letters/Slice 5.png");
   width: calc(207px / var(--main-scale));
   height: calc(414px / var(--main-scale));
   top: -253px;
@@ -129,7 +129,7 @@ html, body {
 }
 
 .the_letter_p2 {
-  background-image: url("/images/letters/Slice 6.png");
+  background-image: url("../images/letters/Slice 6.png");
   width: calc(254px / var(--main-scale));
   height: calc(437px / var(--main-scale));
   top: -344px;
@@ -138,7 +138,7 @@ html, body {
 }
 
 .the_letter_a2 {
-  background-image: url("/images/letters/Slice 7.png");
+  background-image: url("../images/letters/Slice 7.png");
   width: calc(240px / var(--main-scale));
   height: calc(439px / var(--main-scale));
 top: -439px;
@@ -147,7 +147,7 @@ top: -439px;
 }
 
 .the_letter_r {
-  background-image: url("/images/letters/Slice 8.png");
+  background-image: url("../images/letters/Slice 8.png");
   width: calc(271px / var(--main-scale));
   height: calc(424px / var(--main-scale));
   top: -534px;
@@ -156,7 +156,7 @@ top: -439px;
 }
 
 .the_letter_t {
-  background-image: url("/images/letters/Slice 9.png");
+  background-image: url("../images/letters/Slice 9.png");
   width: calc(309px / var(--main-scale));
   height: calc(424px / var(--main-scale));
   top: -623px;
@@ -165,7 +165,7 @@ top: -439px;
 }
 
 .the_letter_y {
-  background-image: url("/images/letters/Slice 10.png");
+  background-image: url("../images/letters/Slice 10.png");
   width: calc(324px / var(--main-scale));
   height: calc(424px / var(--main-scale));
     top: -716px;
