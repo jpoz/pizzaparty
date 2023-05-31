@@ -4,7 +4,6 @@
 }
 
 div#main {
-  margin: 0 auto;
   background-image: url("../images/background.png");
   width: 1125px;
   height: 995px;
@@ -14,8 +13,18 @@ div > img {
   transform: scale(0.5);
 }
 
-html, body {
-  background-color: #454545;
+html {
+  background-image: repeating-linear-gradient(to right, green, green 1%, darkgreen 1%, darkgreen 2%);
+}
+
+.wooden-frame {
+  margin: 0 auto;
+  background-color: #DDBB99; /* Wooden color */
+  padding: 20px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Prevent padding from affecting element's width */
+  border: 10px solid #8B4513; /* Border color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  width: 1183px;
 }
 
 @keyframes bounce1 {
